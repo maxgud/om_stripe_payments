@@ -28,6 +28,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'bootstrap-sass'
 
+# Use stripe for e-commerce payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
