@@ -53,6 +53,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :development, :test do
 	gem 'sqlite3'
+	gem 'letter-opener'
 end
 
 group :production do
