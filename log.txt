@@ -1,0 +1,101 @@
+2015-09-02T19:13:31.019750+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2015-09-02T19:13:30.836141+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2015-09-02T19:13:30.836142+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:38:in `call_app'
+2015-09-02T19:13:31.019751+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2015-09-02T19:13:31.019752+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2015-09-02T19:13:30.836143+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `block in call'
+2015-09-02T19:13:31.019753+00:00 app[web.1]: 
+2015-09-02T19:13:30.836144+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2015-09-02T19:13:30.836147+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2015-09-02T19:13:30.836151+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/runtime.rb:17:in `call'
+2015-09-02T19:13:30.836150+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/methodoverride.rb:21:in `call'
+2015-09-02T19:13:30.836145+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2015-09-02T19:13:30.836149+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2015-09-02T19:13:30.836148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `call'
+2015-09-02T19:13:31.019754+00:00 app[web.1]: 
+2015-09-02T19:13:30.836152+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+2015-09-02T19:13:30.836154+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/static.rb:84:in `call'
+2015-09-02T19:13:30.836155+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/sendfile.rb:112:in `call'
+2015-09-02T19:13:30.836156+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/engine.rb:514:in `call'
+2015-09-02T19:13:30.836157+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/application.rb:144:in `call'
+2015-09-02T19:13:30.836159+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/content_length.rb:14:in `call'
+2015-09-02T19:13:30.836158+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/lock.rb:17:in `call'
+2015-09-02T19:13:30.836160+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:60:in `service'
+2015-09-02T19:13:30.836161+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2015-09-02T19:13:30.836163+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2015-09-02T19:13:30.836162+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2015-09-02T19:13:30.836165+00:00 app[web.1]: 
+2015-09-02T19:13:30.844403+00:00 app[web.1]: Started GET "/css/lib/bootstrap.min.css" for 67.177.5.114 at 2015-09-02 19:13:30 +0000
+2015-09-02T19:13:30.836164+00:00 app[web.1]: 
+2015-09-02T19:13:30.998738+00:00 app[web.1]: 
+2015-09-02T19:13:30.998742+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/css/lib/bootstrap.min.css"):
+2015-09-02T19:13:30.998744+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2015-09-02T19:13:30.998745+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2015-09-02T19:13:30.998746+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:38:in `call_app'
+2015-09-02T19:13:30.998747+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `block in call'
+2015-09-02T19:13:30.998749+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2015-09-02T19:13:30.998750+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2015-09-02T19:13:30.998751+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2015-09-02T19:13:30.998752+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `call'
+2015-09-02T19:13:30.998754+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/methodoverride.rb:21:in `call'
+2015-09-02T19:13:30.998753+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2015-09-02T19:13:30.998756+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/runtime.rb:17:in `call'
+2015-09-02T19:13:30.998757+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+2015-09-02T19:13:30.998758+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/static.rb:84:in `call'
+2015-09-02T19:13:30.998759+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/sendfile.rb:112:in `call'
+2015-09-02T19:13:30.998761+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/application.rb:144:in `call'
+2015-09-02T19:13:30.998760+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/engine.rb:514:in `call'
+2015-09-02T19:13:30.998762+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/lock.rb:17:in `call'
+2015-09-02T19:13:30.998774+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/content_length.rb:14:in `call'
+2015-09-02T19:13:30.998777+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2015-09-02T19:13:30.998776+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:60:in `service'
+2015-09-02T19:13:30.998778+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2015-09-02T19:13:30.998779+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2015-09-02T19:13:30.998780+00:00 app[web.1]: 
+2015-09-02T19:13:30.998781+00:00 app[web.1]: 
+2015-09-02T19:13:31.016321+00:00 app[web.1]: Started GET "/css/main.css" for 67.177.5.114 at 2015-09-02 19:13:31 +0000
+2015-09-02T19:13:31.040902+00:00 heroku[router]: at=info method=GET path="/css/lib/bootstrap.min.css" host=stripe-omr-mg.herokuapp.com request_id=e4585535-7076-4106-8632-90b3e2dd9455 fwd="67.177.5.114" dyno=web.1 connect=1ms service=49ms status=404 bytes=1829
+2015-09-02T19:13:30.941600+00:00 heroku[router]: at=info method=GET path="/assets/one-month-logo-de64661869b1de662de44193d6859302.svg" host=stripe-omr-mg.herokuapp.com request_id=b50958c2-f7b8-4116-9007-a2d116df937b fwd="67.177.5.114" dyno=web.1 connect=2ms service=5ms status=304 bytes=133
+2015-09-02T19:13:30.960992+00:00 heroku[router]: at=info method=GET path="/assets/teacher-image-98db61ff743429d28e4c911c04f702bb.jpg" host=stripe-omr-mg.herokuapp.com request_id=ca6465b1-db68-4bb1-88de-c6b5141f70e5 fwd="67.177.5.114" dyno=web.1 connect=2ms service=18ms status=304 bytes=133
+2015-09-02T19:13:31.022518+00:00 heroku[router]: at=info method=GET path="/css/main.css" host=stripe-omr-mg.herokuapp.com request_id=06d5cdb8-2e52-442b-9742-f43390bd1e6b fwd="67.177.5.114" dyno=web.1 connect=2ms service=30ms status=404 bytes=1829
+2015-09-02T19:13:30.951857+00:00 heroku[router]: at=info method=GET path="/assets/header-image-4cc24f4edb0d1ee2e140c581430c9bc6.jpg" host=stripe-omr-mg.herokuapp.com request_id=6179e733-3587-4aff-9362-f1e88dc3d3d7 fwd="67.177.5.114" dyno=web.1 connect=2ms service=14ms status=304 bytes=133
+2015-09-02T19:13:30.814868+00:00 heroku[router]: at=info method=GET path="/assets/application-78cb0ca92f495f735934037163478756.css" host=stripe-omr-mg.herokuapp.com request_id=0ad9b86a-09be-4813-8fdc-2f2a197eba6b fwd="67.177.5.114" dyno=web.1 connect=1ms service=215ms status=304 bytes=133
+2015-09-02T19:13:31.128639+00:00 heroku[router]: at=info method=GET path="/assets/site-bg-783dd8278224fe8441dcf11bb03641c0.gif" host=stripe-omr-mg.herokuapp.com request_id=43970a4d-a762-4eea-a727-80197fba2e95 fwd="67.177.5.114" dyno=web.1 connect=2ms service=19ms status=304 bytes=133
+2015-09-02T19:13:30.854252+00:00 heroku[router]: at=info method=GET path="/css/main.css" host=stripe-omr-mg.herokuapp.com request_id=42d0ee97-6fda-4b1d-a77a-82ec7eced56a fwd="67.177.5.114" dyno=web.1 connect=2ms service=248ms status=404 bytes=1829
+2015-09-02T19:13:31.649760+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=stripe-omr-mg.herokuapp.com request_id=4e878688-b357-498b-8743-803518b8d6f1 fwd="67.177.5.114" dyno=web.1 connect=2ms service=8ms status=200 bytes=228
+2015-09-02T19:13:48.614841+00:00 app[web.1]: Started POST "/charges" for 67.177.5.114 at 2015-09-02 19:13:48 +0000
+2015-09-02T19:13:48.619582+00:00 app[web.1]: Processing by ChargesController#create as HTML
+2015-09-02T19:13:48.619619+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"jBMbglWmkEaHoydh3EUvJOWnxwlZaH2TcU3kb4JT/lY=", "stripeToken"=>"tok_16ggg1GKUWKkJZsB1K4drNvr", "stripeEmail"=>"maxgud@gmail.com", "amount"=>"499"}
+2015-09-02T19:13:50.203748+00:00 app[web.1]:   Rendered purchase_mailer/purchase_receipt.html.erb within layouts/purchase_mailer (0.4ms)
+2015-09-02T19:13:51.563662+00:00 heroku[router]: at=info method=POST path="/charges" host=stripe-omr-mg.herokuapp.com request_id=20b97773-6790-4fd3-8c97-668b1671d053 fwd="67.177.5.114" dyno=web.1 connect=1ms service=2959ms status=500 bytes=1754
+2015-09-02T19:13:51.560645+00:00 app[web.1]: 
+2015-09-02T19:13:51.560648+00:00 app[web.1]: Sent mail to maxgud@gmail.com (114.6ms)
+2015-09-02T19:13:51.562045+00:00 app[web.1]: Completed 500 Internal Server Error in 2942ms
+2015-09-02T19:13:51.563538+00:00 app[web.1]: Net::SMTPSyntaxError (501 Syntax error in parameters
+2015-09-02T19:13:51.563535+00:00 app[web.1]: 
+2015-09-02T19:13:51.563540+00:00 app[web.1]:   app/models/purchase.rb:11:in `email_purchaser'
+2015-09-02T19:13:51.563539+00:00 app[web.1]: ):
+2015-09-02T19:13:51.563541+00:00 app[web.1]:   app/controllers/charges_controller.rb:17:in `create'
+2015-09-02T19:13:51.563542+00:00 app[web.1]: 
+2015-09-02T19:13:51.563543+00:00 app[web.1]: 
+2015-09-02T19:14:10.848877+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by maxgud@gmail.com
+2015-09-02T19:14:14.064763+00:00 heroku[run.6854]: Awaiting client
+2015-09-02T19:14:14.091074+00:00 heroku[run.6854]: Starting process with command `bundle exec rake db:migrate`
+2015-09-02T19:14:14.412736+00:00 heroku[run.6854]: State changed from starting to up
+2015-09-02T19:14:18.249956+00:00 heroku[run.6854]: State changed from up to complete
+2015-09-02T19:14:18.240488+00:00 heroku[run.6854]: Process exited with status 0
+2015-09-02T19:14:38.458438+00:00 app[web.1]: Started POST "/charges" for 67.177.5.114 at 2015-09-02 19:14:38 +0000
+2015-09-02T19:14:38.460795+00:00 app[web.1]: Processing by ChargesController#create as HTML
+2015-09-02T19:14:38.460804+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"jBMbglWmkEaHoydh3EUvJOWnxwlZaH2TcU3kb4JT/lY=", "stripeToken"=>"tok_16gggpGKUWKkJZsBax4n9viQ", "stripeEmail"=>"maxgud@gmail.com", "amount"=>"499"}
+2015-09-02T19:14:39.880347+00:00 app[web.1]:   Rendered purchase_mailer/purchase_receipt.html.erb within layouts/purchase_mailer (0.1ms)
+2015-09-02T19:14:39.929450+00:00 app[web.1]: 
+2015-09-02T19:14:39.929453+00:00 app[web.1]: Net::SMTPSyntaxError (501 Syntax error in parameters
+2015-09-02T19:14:39.929454+00:00 app[web.1]: ):
+2015-09-02T19:14:39.929455+00:00 app[web.1]:   app/models/purchase.rb:11:in `email_purchaser'
+2015-09-02T19:14:39.929456+00:00 app[web.1]:   app/controllers/charges_controller.rb:17:in `create'
+2015-09-02T19:14:39.929458+00:00 app[web.1]: 
+2015-09-02T19:14:39.929459+00:00 app[web.1]: 
+2015-09-02T19:14:39.933584+00:00 heroku[router]: at=info method=POST path="/charges" host=stripe-omr-mg.herokuapp.com request_id=372d0916-b71f-487e-9346-730d9ee1b4a0 fwd="67.177.5.114" dyno=web.1 connect=1ms service=1482ms status=500 bytes=1754
+2015-09-02T19:14:39.920055+00:00 app[web.1]: 
+2015-09-02T19:14:39.920059+00:00 app[web.1]: Sent mail to maxgud@gmail.com (38.9ms)
+2015-09-02T19:14:39.927919+00:00 app[web.1]: Completed 500 Internal Server Error in 1467ms
